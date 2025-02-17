@@ -6,7 +6,12 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
-const NavMenuItems = [
+type MenuItemType = {
+  name: string;
+  href: string;
+};
+
+const NavMenuItems: MenuItemType[] = [
   {
     name: "Home",
     href: "#",
