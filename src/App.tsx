@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Reputation from "./components/Reputation";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div className="">
         <Navbar />
         <Hero />
+        <Reputation />
       </div>
     </>
   );
