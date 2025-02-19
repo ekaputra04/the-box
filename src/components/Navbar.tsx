@@ -18,7 +18,7 @@ const NavMenuItems: MenuItemType[] = [
   },
   {
     name: "About Us",
-    href: "#",
+    href: "#about",
   },
   {
     name: "Projects",

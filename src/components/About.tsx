@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 export default function About() {
   return (
     <>
-      <div className="grid lg:grid-cols-7 lg:px-32">
+      <div className="grid lg:grid-cols-7 lg:px-32 py-16" id="about">
         <img
           src="../../public/images/About.png"
           alt="About"
