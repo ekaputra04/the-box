@@ -6,7 +6,7 @@ interface ExperienceCardProps {
 
 export default function ExperienceCard({ item }: ExperienceCardProps) {
   return (
-    <div className="relative space-y-4 shadow-lg p-8 border rounded-lg">
+    <div className="relative space-y-4 hover:shadow-lg p-8 hover:border rounded-lg transition-all">
       <p className="font-semibold text-blue-900 text-6xl">{item.number}</p>
       <img
         src={item.image}
