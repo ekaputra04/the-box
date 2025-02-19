@@ -8,7 +8,7 @@ export default function ServicesCard({ item }: ServicesCardProps) {
   return (
     <>
       <div
-        className={`flex flex-col justify-center items-center space-y-4 p-8 border rounded-lg ${
+        className={`flex flex-col justify-center items-center space-y-4 p-8 border rounded-lg shadow-lg ${
           item.isPrimary ? "bg-blue-900" : ""
         }`}
       >

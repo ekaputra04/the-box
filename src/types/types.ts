@@ -9,3 +9,9 @@ export type ServicesItemType = {
   name: string;
   isPrimary: boolean;
 };
+
+export type ExperienceItemType = {
+  image: string;
+  number: number;
+  title: string;
+};
