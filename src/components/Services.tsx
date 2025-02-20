@@ -36,7 +36,7 @@ const services: ServicesItemType[] = [
 
 export default function Services() {
   return (
-    <div className="space-y-16 lg:px-32 py-16">
+    <div className="space-y-16 lg:px-32 py-24">
       <p className="font-semibold text-slate-900 text-4xl text-center">
         Services
       </p>

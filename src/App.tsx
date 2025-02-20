@@ -3,6 +3,7 @@ import Consultation from "./components/Consultation";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Project from "./components/Projects";
 import Reputation from "./components/Reputation";
 import Services from "./components/Services";
 
@@ -17,6 +18,7 @@ function App() {
         <Services />
         <Experience />
         <Consultation />
+        <Project />
       </div>
     </>
   );

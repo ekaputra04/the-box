@@ -39,8 +39,8 @@ export default function Navbar() {
     <>
       <div className="flex justify-between lg:px-32 py-4">
         <div className="flex items-center gap-4">
-          <img src="../../public/images/logo.png" alt="" className="h-8" />
-          <img src="../../public/images/TheBox.png" alt="" className="h-4" />
+          <img src="/images/logo.png" alt="" className="h-8" />
+          <img src="/images/TheBox.png" alt="" className="h-4" />
         </div>
         <div className="">
           <NavigationMenu>

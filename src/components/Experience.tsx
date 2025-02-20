@@ -26,7 +26,7 @@ const experiences: ExperienceItemType[] = [
 ];
 export default function Experience() {
   return (
-    <div className="gap-24 grid grid-cols-5 lg:px-32 py-16">
+    <div className="gap-24 grid grid-cols-5 lg:px-32 py-24">
       <div className="gap-16 grid grid-cols-2 col-span-3">
         {experiences.map((item, index) => (
           <ExperienceCard item={item} key={index} />

@@ -4,13 +4,9 @@ export default function About() {
   return (
     <>
       <div className="grid lg:grid-cols-7 lg:px-32 py-16" id="about">
-        <img
-          src="../../public/images/About.png"
-          alt="About"
-          className="col-span-5"
-        />
-        <div className="relative space-y-6 col-span-2 bg-blue-900 mt-32 -ml-32 p-8 w-96 h-fit text-white">
-          <h2 className="font-semibold text-xl">About Us</h2>
+        <img src="/images/About.png" alt="About" className="col-span-5" />
+        <div className="relative space-y-6 col-span-2 bg-blue-900 mt-24 -ml-32 p-8 w-96 h-fit text-white">
+          <h2 className="font-semibold text-2xl">About Us</h2>
           <div className="space-y-4">
             <p>
               For more than 30 years we have been delivering world-class

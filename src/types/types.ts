@@ -15,3 +15,10 @@ export type ExperienceItemType = {
   number: number;
   title: string;
 };
+
+export type ProjectItemType = {
+  image: string;
+  name: string;
+  street: string;
+  type: "Commercial" | "Residential" | "Other";
+};
