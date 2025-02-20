@@ -42,7 +42,7 @@ export default function Project() {
 
   return (
     <div className="lg:px-32 py-24" id="project">
-      <h2 className="pb-16 font-semibold text-slate-900 text-4xl">Projects</h2>
+      <h2 className="pb-16 font-semibold text-blue-900 text-4xl">Projects</h2>
       <div className="gap-16 grid lg:grid-cols-3">
         <div className="col-span-1">
           <ul className="space-y-4">

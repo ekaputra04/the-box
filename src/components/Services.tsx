@@ -37,7 +37,7 @@ const services: ServicesItemType[] = [
 export default function Services() {
   return (
     <div className="space-y-16 lg:px-32 py-24">
-      <p className="font-semibold text-slate-900 text-4xl text-center">
+      <p className="font-semibold text-blue-900 text-4xl text-center">
         Services
       </p>
       <div className="gap-8 grid lg:grid-cols-3">

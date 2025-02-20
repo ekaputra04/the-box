@@ -31,8 +31,8 @@ const ContactForm: React.FC = () => {
 
   return (
     <>
-      <div className="lg:px-96 py-24">
-        <h2 className="mb-4 font-bold text-gray-800 text-2xl text-center">
+      <div className="bg-slate-50 lg:px-96 py-24">
+        <h2 className="mb-4 font-bold text-blue-900 text-2xl text-center">
           What can us do for you?
         </h2>
         <p className="mb-6 text-gray-600 text-center">
@@ -42,21 +42,44 @@ const ContactForm: React.FC = () => {
         <form onSubmit={handleSubmit}></form>
         <div className="space-y-4 w-full">
           <div>
-            <Label htmlFor="name">Name</Label>
-            <Input type="name" id="name" placeholder="John Doe" />
+            <Label className="text-blue-900" htmlFor="name">
+              Name
+            </Label>
+            <Input
+              className="bg-white"
+              type="name"
+              id="name"
+              placeholder="John Doe"
+            />
           </div>
           <div>
-            <Label htmlFor="email">Email</Label>
-            <Input type="email" id="email" placeholder="john@example.com" />
+            <Label className="text-blue-900" htmlFor="email">
+              Email
+            </Label>
+            <Input
+              className="bg-white"
+              type="email"
+              id="email"
+              placeholder="john@example.com"
+            />
           </div>
           <div>
-            <Label htmlFor="phone">Phone</Label>
-            <Input type="phone" id="phone" placeholder="08123456789" />
+            <Label className="text-blue-900" htmlFor="phone">
+              Phone
+            </Label>
+            <Input
+              className="bg-white"
+              type="phone"
+              id="phone"
+              placeholder="08123456789"
+            />
           </div>
           <div>
-            <Label htmlFor="select">Reason for Contacting</Label>
+            <Label className="text-blue-900" htmlFor="select">
+              Reason for Contacting
+            </Label>
             <Select name="select">
-              <SelectTrigger className="w-full">
+              <SelectTrigger className="bg-white w-full">
                 <SelectValue placeholder="Reason for Contacting" />
               </SelectTrigger>
               <SelectContent>
@@ -66,8 +89,13 @@ const ContactForm: React.FC = () => {
               </SelectContent>
             </Select>
           </div>
-          <Textarea placeholder="Type your message here." className="h-32" />
-          <Button className="w-full">Submit</Button>
+          <Textarea
+            placeholder="Type your message here."
+            className="bg-white h-32"
+          />
+          <Button className="bg-blue-900 hover:bg-blue-950 w-full">
+            Submit
+          </Button>
         </div>
       </div>
     </>

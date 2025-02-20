@@ -4,12 +4,12 @@ export default function Hero() {
       <div
         className="relative w-full h-screen"
         style={{
-          backgroundImage: "url(../../public/images/Hero.png)",
+          backgroundImage: "url(/images/Hero.png)",
           backgroundSize: "cover",
         }}
       >
         <div className="lg:px-32">
-          <p className="flex justify-center items-center w-1/2 h-screen font-semibold text-slate-700 text-7xl">
+          <p className="flex justify-center items-center w-1/2 h-screen font-semibold text-blue-900 text-7xl">
             Building things is our mission.
           </p>
         </div>
