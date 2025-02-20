@@ -31,7 +31,7 @@ const ContactForm: React.FC = () => {
 
   return (
     <>
-      <div className="bg-slate-50 lg:px-96 py-24">
+      <div className="bg-slate-50 px-8 md:px-16 lg:px-96 py-24">
         <h2 className="mb-4 font-bold text-blue-900 text-2xl text-center">
           What can us do for you?
         </h2>

@@ -26,13 +26,13 @@ const experiences: ExperienceItemType[] = [
 ];
 export default function Experience() {
   return (
-    <div className="gap-24 grid grid-cols-5 lg:px-32 py-24">
-      <div className="gap-16 grid grid-cols-2 col-span-3">
+    <div className="flex flex-col-reverse gap-24 lg:grid lg:grid-cols-5 px-8 md:px-16 lg:px-32 py-24">
+      <div className="gap-4 lg:gap-16 grid grid-cols-1 lg:grid-cols-2 lg:col-span-3">
         {experiences.map((item, index) => (
           <ExperienceCard item={item} key={index} />
         ))}
       </div>
-      <div className="space-y-8 col-span-2">
+      <div className="space-y-8 lg:col-span-2">
         <p className="font-semibold text-blue-900 text-6xl">
           30 Years Experience
         </p>

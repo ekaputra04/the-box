@@ -36,11 +36,11 @@ const services: ServicesItemType[] = [
 
 export default function Services() {
   return (
-    <div className="space-y-16 lg:px-32 py-24">
-      <p className="font-semibold text-blue-900 text-4xl text-center">
+    <div className="space-y-16 px-8 md:px-16 lg:px-32 py-24">
+      <p className="font-semibold text-blue-900 text-2xl md:text-3xl lg:text-4xl text-center">
         Services
       </p>
-      <div className="gap-8 grid lg:grid-cols-3">
+      <div className="gap-4 lg:gap-8 grid lg:grid-cols-3">
         {services.map((item, index) => (
           <ServicesCard item={item} key={index} />
         ))}

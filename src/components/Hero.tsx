@@ -8,8 +8,8 @@ export default function Hero() {
           backgroundSize: "cover",
         }}
       >
-        <div className="lg:px-32">
-          <p className="flex justify-center items-center w-1/2 h-screen font-semibold text-blue-900 text-7xl">
+        <div className="px-8 md:px-16 lg:px-32">
+          <p className="flex justify-center items-center lg:w-1/2 h-screen font-semibold text-blue-900 text-4xl lg:text-7xl">
             Building things is our mission.
           </p>
         </div>

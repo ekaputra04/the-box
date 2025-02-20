@@ -24,11 +24,11 @@ const ReputationItems: ReputationItemType[] = [
 
 export default function Reputation() {
   return (
-    <div className="space-y-16 py-32">
-      <h2 className="font-semibold text-blue-900 text-4xl text-center">
+    <div className="space-y-16 py-24">
+      <h2 className="font-semibold text-blue-900 text-2xl md:text-3xl lg:text-4xl text-center">
         Our Reputation
       </h2>
-      <div className="gap-16 grid lg:grid-cols-3 px-32">
+      <div className="gap-4 md:gap-8 lg:gap-16 grid lg:grid-cols-3 px-8 md:px-16 lg:px-32">
         {ReputationItems.map((item, index) => (
           <div key={index}>
             <ReputationCard item={item} />

@@ -41,10 +41,12 @@ export default function Project() {
       : projects.filter((project) => project.type === activeTab);
 
   return (
-    <div className="lg:px-32 py-24" id="project">
-      <h2 className="pb-16 font-semibold text-blue-900 text-4xl">Projects</h2>
-      <div className="gap-16 grid lg:grid-cols-3">
-        <div className="col-span-1">
+    <div className="px-8 md:px-16 lg:px-32 py-24" id="project">
+      <h2 className="pb-8 lg:pb-16 font-semibold text-blue-900 text-2xl md:text-3xl lg:text-4xl">
+        Projects
+      </h2>
+      <div className="gap-16 lg:grid lg:grid-cols-3">
+        <div className="lg:col-span-1">
           <ul className="space-y-4">
             {tabLists.map((tab) => (
               <TabList
@@ -56,7 +58,7 @@ export default function Project() {
             ))}
           </ul>
         </div>
-        <div className="gap-6 grid grid-cols-1 md:grid-cols-2 col-span-2">
+        <div className="gap-6 grid grid-cols-1 md:grid-cols-2 col-span-2 mt-8 lg:mt-0">
           {filteredProjects.map((project) => (
             <ProjectCard item={project} key={project.name} />
           ))}
